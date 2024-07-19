@@ -1,0 +1,44 @@
+* {
+    font-family: arial;
+}
+#navbar{
+    height: 60px;
+    background-color: #222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+#navbar a{
+   
+    text-decoration: none;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    transition: all 0.3s;
+}
+#navbar a:hover{
+    background-color: #444;
+    transition: all 0.3s;
+
+}
+header{
+    text-align: center;
+}
+main {
+    margin-top: 20px;
+}
+.recipe {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border: solid 1px #bbb;
+}
